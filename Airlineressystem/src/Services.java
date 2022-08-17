@@ -58,5 +58,8 @@ public class Services extends JFrame implements ActionListener{
 		if(e.getSource()==button1) {
 			LoginPage login = new LoginPage(idandPasswords.getlogininfo());
 		}
+		if(e.getSource() == button2) {
+			Balance balance = new Balance();
+		}
 	}
 }
